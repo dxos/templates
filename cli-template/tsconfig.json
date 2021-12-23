@@ -4,10 +4,6 @@
     "composite": true,
     "declarationMap": true,
     "esModuleInterop": true,
-    "include": [
-      "src",
-      "src/**/*.json"
-    ],
     "lib": [
       "DOM"
     ],
@@ -22,6 +18,10 @@
     "target": "ES2018",
     "types": ["node", "jest"],
   },
+  "include": [
+    "src",
+    "src/**/*.json"
+  ],
   "exclude": [
     "**/node_modules",
     "**/dist"
