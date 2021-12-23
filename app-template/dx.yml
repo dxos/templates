@@ -1,0 +1,12 @@
+version: 1
+
+module:
+  name: dxos:app.template
+  type: dxos:type.app
+
+build:
+  command: npm run release
+
+runtime:
+  props:
+    title: 'DXOS App Template'

@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2018"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    ".git",
+    ".github",
+    ".idea",
+    ".rush",
+    "common",
+    "dist",
+    "docs",
+    "node_modules",
+    "out",
+    "public"
+  ]
+}
