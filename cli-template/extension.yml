@@ -1,0 +1,6 @@
+name: dxos/cli-template
+version: 1.0.0
+displayName: cli-template
+description: Template for CLI extension.
+command:
+  - template
