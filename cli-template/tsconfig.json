@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "composite": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "lib": [
+      "DOM"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2018",
+    "types": ["node", "jest"],
+  },
+  "include": [
+    "src",
+    "src/**/*.json"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/dist"
+  ]
+}
