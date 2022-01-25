@@ -1,0 +1,12 @@
+version: 1
+
+module:
+  type: dxos:type.app
+  name: example:frame.template
+  description: Frame Starter Template
+  author: DXOS.org
+  license: AGPL-3.0
+  repository: 'https://github.com/dxos/braneframe/packages/frames/template-frame'
+
+build:
+  command: npm run release

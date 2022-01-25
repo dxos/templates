@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2018"
+  },
+  "include": [
+    "scripts",
+    "src",
+    "stories",
+    "tests"
+  ],
+  "exclude": [
+    ".git",
+    ".github",
+    ".idea",
+    ".rush",
+    "common",
+    "dist",
+    "docs",
+    "node_modules",
+    "out",
+    "public"
+  ]
+}
