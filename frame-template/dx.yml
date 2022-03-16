@@ -5,8 +5,8 @@ module:
   name: example:frame.template
   description: Frame Starter Template
   author: DXOS.org
-  license: AGPL-3.0
+  license: MIT
   repository: 'https://github.com/dxos/braneframe/packages/frames/template-frame'
 
 build:
-  command: npm run release
+  command: npm run build

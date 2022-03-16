@@ -1,12 +1,30 @@
 version: 1
 
 module:
-  name: dxos:app.template
   type: dxos:type.app
+  name: example:app.template
+  description: Template App
+  author: DXOS.org
+  license: MIT
+  repository: 'https://github.com/dxos/braneframe/tree/main/packages/apps/template-app'
 
 build:
-  command: npm run release
+  command: npm run build
 
 runtime:
   props:
-    title: 'DXOS App Template'
+    title: 'Template App'
+
+  client:
+    debug: 'dxos:*:error'
+    storage:
+      persistent: true
+
+  services:
+    signal:
+      server: 'wss://demo.kube.dxos.network/dxos/signal'
+    ipfs:
+      server: 'https://ipfs1.kube.dxos.network/dxos/ipfs/api'
+      gateway: 'https://ipfs1.kube.dxos.network/dxos/ipfs/gateway/'
+    dxns:
+      server: 'wss://node1.devnet.dxos.network/dxns/ws'

@@ -3,13 +3,14 @@
 //
 
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-const App = () => <div>Hello World</div>;
+import { configProvider } from '@dxos/client';
+import { AppInitializer } from '@dxos/react-appkit';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+export const App = () => {
+  return (
+    <AppInitializer config={configProvider}>
+      Welcome to DXOS!
+    </AppInitializer>
+  );
+};
