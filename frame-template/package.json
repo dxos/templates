@@ -27,6 +27,7 @@
     "@dxos/react-client": "~2.28.4",
     "@dxos/react-components": "~2.28.4",
     "@dxos/react-framekit": "2.15.5",
+    "@dxos/react-framework": "~2.28.4",
     "@dxos/registry-client": "~2.28.4",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",

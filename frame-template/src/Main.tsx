@@ -14,7 +14,7 @@ export const Main = () => {
   // 1. Party and root item provided by the frame context from the host app.
   const { party, item } = useFrameContext();
   // 2. Select all task items as children of the root frame item.
-  const tasks = useSelection(item?.select().children()) ?? [];
+  const tasks = useSelection(party?.select({ type: 'example:task-list' }).children()) ?? [];
   const [value, setValue] = useState('');
 
   const handleAdd = () => {
